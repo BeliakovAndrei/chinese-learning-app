@@ -36,7 +36,7 @@ const dictionary = [
         _id: "001nhajij12cdj2j97",
         name: "你好",
         pianying: "nǐ hǎo",
-        translation: "привет, здравствуйте",
+        translation: "Привет, здравствуйте",
         type: "фраза",
         example: "你好！有什么需要帮助的吗？",
         difficulty: hskLevel.hsk1,
@@ -96,7 +96,7 @@ const dictionary = [
         _id: "001nhajij12cdj2j13",
         name: "裤子",
         pianying: "kù zi",
-        translation: "привет, здравствуйте",
+        translation: "Штаны",
         type: "сущ",
         example: "一条裤子",
         difficulty: [hskLevel.hsk3, hskLevel.hsk2],
@@ -156,7 +156,7 @@ const dictionary = [
         _id: "001nhajij12cdj2j19",
         name: "众所周知",
         pianying: "zhòng suǒ zhōu zhī",
-        translation: "Окружать, осаждать",
+        translation: "Всем известно",
         type: "Идиома",
         example: "众所周知，他是坏人",
         difficulty: hskLevel.hsk6,
@@ -171,4 +171,4 @@ const fetchAll = () =>
         }, 2000);
     });
 
-export default fetchAll();
+export default {fetchAll};

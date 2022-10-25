@@ -8,6 +8,7 @@ import MyDictionary from "../myDictionary";
 import Support from "../support";
 import Allcourses from "../allcourses";
 import Notifications from "../notifications";
+import StartPage from "../startPage";
 
 function App () {
   return (
@@ -21,6 +22,7 @@ function App () {
       <Route path="/mydictionary" component={MyDictionary} />
       <Route path="/support" component={Support} />
       <Route path="/allcourses" component={Allcourses} />
+      <Route path="/start" component={StartPage} />
     </div>
   );
 };
